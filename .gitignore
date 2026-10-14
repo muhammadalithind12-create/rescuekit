@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# env files (never commit real secrets — see docs/RESCUE-REPORT.md #8)
+.env
+.env*.local
+.env*.production
+
+# misc
+.DS_Store
+*.log
+
+tsconfig.tsbuildinfo
